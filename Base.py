@@ -42,6 +42,7 @@
 # L = ['Bart', 'Lisa', 'Adam']
 # for x in L:
 # 	print('Hello, %s' % x)
-a = (1, 2, 3)
-set = ({a})
-print(set)
+
+a = {'a': 1, 'b': 2, 'c': 3}
+a['d'] = 4
+print(a)
